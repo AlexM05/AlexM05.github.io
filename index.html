@@ -29,8 +29,14 @@ img {display:block;margin-left: auto; margin-right: auto;}
 <p style="line-height:1.67em; text-align:center;"><span style="font-weight:700;">Someone who has too much time.</span></p>
 <img src="Pics/wifi.jpg" alt="Alex" style="width: 50%;">
 
-  
-    <script>
+<style> 
+.center {
+  text-align: center;
+  border: 3px solid black;
+}
+</style>
+<div class="center">
+  <script>
       function play() {
         var audio = document.getElementById("audio");
         audio.play();
@@ -39,5 +45,5 @@ img {display:block;margin-left: auto; margin-right: auto;}
 
     <input type="button" value="PLAY" onclick="play()">
     <audio id="audio" src="/Videos/Audio/Rick.mp3"></audio>
-  
+  </div> 
 </html>
