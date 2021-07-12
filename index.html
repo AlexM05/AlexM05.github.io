@@ -30,7 +30,14 @@ img {display:block;margin-left: auto; margin-right: auto;}
 <img src="Pics/wifi.jpg" alt="Alex" style="width: 50%;">
 
   
-    <h2> Here is a button </h2>
-    <button onclick="window.location.href='/page2'">Click Me! I dare you.</button
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+
+    <input type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="/Videos/Audio/Rick.mp3"></audio>
   
 </html>
